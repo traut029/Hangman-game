@@ -2,8 +2,8 @@ body h1 {
     text-align:center;
     margin-bottom:30px;
     margin-top:30px;
-    background:black;
-    color:white;
+    background:none;
+    color:black;
 }
 
 #word {
@@ -13,4 +13,16 @@ body h1 {
 
 body h2{
     text-align:center;
+}
+#titleImage{
+    display:block;
+    width:75%;
+    height:150px;
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+body {
+    background-image:url(https://images3.alphacoders.com/273/273289.jpg);
+    background-size:100% 100%;
 }
