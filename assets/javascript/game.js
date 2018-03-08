@@ -157,7 +157,7 @@ function reset(){                    //reset function, doesn't run unless a game
     window.wordBank=wordBank;
     var lives=8;
     window.lives=lives;
-    var currentWord = wordBank[Math.floor(Math.random()*10)+1];
+    var currentWord = wordBank[Math.floor(Math.random()*151)+1];
     window.currentWord=currentWord;
     var wordLength = currentWord.length;
     window.wordLength=wordLength;
@@ -362,7 +362,7 @@ function reset(){                    //reset function, doesn't run unless a game
     console.log(wordBank[2]);
 
 
-    var currentWord = wordBank[Math.floor(Math.random()*10)+1];
+    var currentWord = wordBank[Math.floor(Math.random()*151)+1];
 
     console.log(currentWord);
 
